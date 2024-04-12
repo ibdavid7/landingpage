@@ -5,154 +5,127 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
-import user1 from "../assets/profile-pictures/user1.jpg";
-import user2 from "../assets/profile-pictures/user2.jpg";
-import user3 from "../assets/profile-pictures/user3.jpg";
-import user4 from "../assets/profile-pictures/user4.jpg";
-import user5 from "../assets/profile-pictures/user5.jpg";
-import user6 from "../assets/profile-pictures/user6.jpg";
-
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "FEATURES", href: "#" },
+  { label: "PROJECT", href: "#" },
+  { label: "RESOURCES", href: "#" },
+  { label: "ABOUT", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
-    image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    user: "Karan Palan",
+    company: "CTO and co-founder",
+    image: "https://media.licdn.com/dms/image/D5603AQH1ct3NgdBq1A/profile-displayphoto-shrink_200_200/0/1712770824512?e=1718236800&v=beta&t=R15Ww1sTCQLORPICjbxr_qKtUX6Md_uJEGcU42iJ3tQ", // Use a placeholder image URL
+    linkedin: "https://www.linkedin.com/in/karan-palan-476472289/", 
+    text: "I'm CTO, Bitch !",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
-    image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    user: "Krish Gupta",
+    company: "CEO and co-founder",
+    image: "https://media.licdn.com/dms/image/D5635AQFaB5FL4GUqJA/profile-framedphoto-shrink_200_200/0/1706681244607?e=1713567600&v=beta&t=pevyw6JXQISeI58G7idNzrHveBRzuWZsmD6xGAZVVCo", // Use a placeholder image URL
+    linkedin: "https://www.linkedin.com/in/krish-gupta-51637b1b8/", 
+    text: "I'm CEO, Bitch !",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
-    image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
-  },
-  {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
-    image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
-  },
-  {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
-    image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
-  },
-  {
-    user: "Emily Davis",
-    company: "Synergy Systems",
-    image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    user: "Shrawani Wagh",
+    company: "COO and co-founder",
+    image: "https://media.licdn.com/dms/image/D5635AQELeseuZ6bQLQ/profile-framedphoto-shrink_200_200/0/1709558241121?e=1713567600&v=beta&t=AeMCWKTiCwjvh7NjOD4SQEmwDaRqyrw9yFwqRVftXKU", 
+    linkedin: "https://www.linkedin.com/in/shravani-wagh-20a69728a/", 
+    text: "Turning chaos into order, with uncompromising precision.",
   },
 ];
 
+
+
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <PlugZap />,
+    text: "In-House Discussion Forum",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "The discussion forum enables DAO members to engage in open, transparent discussions about proposals, ideas, and issues. It integrates with the platform's voting system, allowing members to seamlessly transition from discussion to formal proposal submissions.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Informed Decision-Making",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "DAO members who have contributed to the pool can propose investments, providing details such as description, amount (within pool limits), and recipient. Every member has the authority to approve or reject proposals, with each member having a single vote.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Transparent Operations",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Proposal owners, having secured approval surpassing rejection, can execute the proposal. This leads to the transfer of the designated amount to the specified recipient. Owners also retain the option to close proposals, whether due to cancellation, publication errors, or to prevent fund disbursement.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "User agreement for deposit/progress tracking.",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Users agree to terms of service and can deposit collateral, with balances tracked",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <BotMessageSquare />,
+    text: "Collaborative Funding",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Members of a club can contribute to a common fund (pool) by depositing Ethereum, fostering a shared financial resource for investment proposals.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "AI predictive analysis.",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Advanced AI-powered predictive analysis forecasts proposal outcomes based on historical data, community sentiment, and other factors. Predictive insights inform more strategic, data-driven governance decisions.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Trusted Platform",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "To build a DAO platform that leverages blockchain technology to address trust and security issues.",
   },
   {
-    title: "Review code without worry",
+    title: "Transparent Governance",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "To provide transparent governance through immutable records on the blockchain, allowing stakeholders to verify actions and decisions.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Secure Processes",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "To minimize the risk of frauds and maintain the integrity of governance processes by encoding rules and protocols into smart contracts.",
   },
   {
-    title: "Share work in minutes",
+    title: "Inclusive Participation:",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "To enable inclusive participation by allowing a diverse community of stakeholders to contribute to governance decisions.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "What is a DAO?",
+    price: "A DAO is an organization governed by blockchain-encoded rules, executed automatically through smart contracts.",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Transparent and accountable",
+      "Decentralized governance",
+      "Automated execution",
+      "Globally accessible",
     ],
+    trialLink: "https://nexusspheredao.netlify.app/",
+    trialText: "Start your free trial today!",
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "What is DAO governance?",
+    price: "It enables decentralized organizations to create and execute secure, transparent, and tamper-proof voting proposals.",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Off-chain Voting",
+      "Weighted Voting",
+      "Voting History",
+      "Community Engagement",
     ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    trialLink: "#",
+    trialText: "Coming soon!",
   },
 ];
-
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
   { href: "#", text: "Documentation" },
